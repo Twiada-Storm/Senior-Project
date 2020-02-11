@@ -5,6 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <title>TWitter Sentiment analysis </title>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -21,6 +22,17 @@ function App() {
       </header>
     </div>
   );
+
+ /* function searchFunc() {
+    return(
+        <div>
+          <h1>This is a test</h1>
+        </div>
+    )
+
+  }
+
+  */
 }
 
 export default App;
